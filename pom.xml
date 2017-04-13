@@ -52,6 +52,15 @@
 		</dependency>
 	</dependencies>
 	<build>
+	<plugins>
+     
+      <plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>appengine-maven-plugin</artifactId>
+        <version>1.2.1</version>
+      </plugin>
+      
+    </plugins>
 		<finalName>bt_week09</finalName>
 	</build>
 </project>
